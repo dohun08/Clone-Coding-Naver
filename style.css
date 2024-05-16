@@ -145,3 +145,50 @@ main{
     width: 95%;
     margin: 0px auto;
 }
+#we{
+    width: 100%;
+    height: 680px;
+}
+#wejetboard{
+    position: relative;
+    width: 95%;
+    height: 100%;
+    margin: 0px auto;
+}
+.wb1{
+    width: 47%;
+    background-color: blue;
+    position: absolute;
+    left: 0px;
+    height: 180px;
+}
+.wb2{
+    width: 47%;
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    height: 180px;
+}
+.wb3{
+    width: 47%;
+    background-color: rgb(255, 0, 166);
+    position: absolute;
+    left: 0px;
+    top: 210px;
+    height: 180px;
+}
+.wb4{
+    width: 47%;
+    background-color: rgb(43, 255, 0);
+    position: absolute;
+    right: 0px;
+    top: 210px;
+    height: 180px;
+}
+.wb5{
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 410px;
+    height: 200px;
+}
