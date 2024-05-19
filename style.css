@@ -70,7 +70,7 @@ main{
     max-width: 100%;
 }
 .main-news{
-    width: 90%;
+    width: 95%;
     display: flex;
     flex-direction: row;
     margin: 0px auto;
@@ -78,7 +78,7 @@ main{
 .main-news p{margin-right: 10px;}
 .main-news2{
     background-color: rgb(232, 232, 232);
-    width: 90%;
+    width: 95%;
     margin: 0px auto;
     height: 40px;
     border-radius: 5px;
@@ -110,7 +110,7 @@ main{
     align-items: center;
     justify-content: center;
 }
-.id{
+#id{
     font-size: 14px;
     width: 60%;
     margin: 0px auto;
@@ -118,6 +118,12 @@ main{
     flex-direction: row;
     justify-content: space-around;
 }
+.id{color: black; text-decoration-line: none;}
+.id:hover{text-decoration: underline;}
+.pw{color: black; text-decoration-line: none;}
+.pw:hover{text-decoration: underline;}
+.join{color: black; text-decoration-line: none;}
+.join:hover{text-decoration: underline;}
 #section2 article{
     border: 1px solid rgb(154, 154, 154);
     border-radius: 10px;
@@ -147,48 +153,108 @@ main{
 }
 #we{
     width: 100%;
-    height: 680px;
+    height: 700px;
 }
 #wejetboard{
+    padding-top: 20px;
     position: relative;
-    width: 95%;
+    width: 90%;
     height: 100%;
     margin: 0px auto;
 }
+#wejetboard div{
+    border: 1px solid rgba(0, 0, 0, 0.214);
+    border-radius: 5px;
+}
 .wb1{
     width: 47%;
-    background-color: blue;
     position: absolute;
     left: 0px;
     height: 180px;
+    top: 50px;
+    background-color: white;
+}
+#wb1{
+    padding-top: 10px;
+    width: 90%;
+    margin: 0px auto;
+    background-color: white;
 }
 .wb2{
     width: 47%;
-    background-color: red;
     position: absolute;
     right: 0px;
     height: 180px;
+    top: 50px;
+    background-color: white;
+}
+.memo{
+    color: white;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.wb3-button{
+    font-size: 14px; 
+    width: 70%;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 140, 255);
+}
+.wb3-button:hover{
+    background-color: rgb(0, 101, 184);
+}
+.wb3-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .wb3{
     width: 47%;
-    background-color: rgb(255, 0, 166);
     position: absolute;
     left: 0px;
-    top: 210px;
+    top: 250px;
     height: 180px;
+    background-color: white;
 }
 .wb4{
     width: 47%;
-    background-color: rgb(43, 255, 0);
     position: absolute;
     right: 0px;
-    top: 210px;
+    top: 250px;
     height: 180px;
+    background-color: white;
+}
+.wb4 span{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.214);
+    width: 300px;
 }
 .wb5{
     width: 100%;
     background-color: black;
     position: absolute;
-    top: 410px;
+    top: 450px;
     height: 200px;
+    background-color: white;
+}
+.wb6{
+    position: absolute;
+    bottom: 35px;
+    left: 0px;
+    width: 100%;
+}
+.shoping{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+}
+.gt{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
 }
