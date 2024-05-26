@@ -1,8 +1,15 @@
 #container{
+    position: relative;
     width: 100%;
-    height: 150%;
     padding: 0px;
     margin: 0px;
+}
+footer{
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    bottom: -2450px;
+    background-color: rgb(189, 189, 189);
 }
 header{
     max-width: 90%;
@@ -121,7 +128,7 @@ main{
     width: 95%;
     opacity: 0;
     position: absolute;
-    top: 26%;
+    top: 16.5%;
     left: 5%;
     display: flex;
     flex-direction: row;
@@ -359,3 +366,62 @@ main{
     width: 90%;
     margin: 0px auto;
 }
+#footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#footer1-bar1{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+}
+a{text-decoration-line: none;}
+a:hover{text-decoration-line: underline;}
+#gg{position: relative;}
+#gg1{position: absolute; left: 0px;}
+#gg2{position: absolute; right: 0px;}
+#footer2{
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+}
+#footer2-bar3{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+#footer2-bar4{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+}
+#footer2-bar1{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 14px;
+    width: 700px;
+}
+#footer2-bar2{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    width: 500px;
+    justify-content: space-around;
+}
+#footer2-bar1 a{color: black;}
+#footer2-bar2 a{color: black;}
+#footer3{width: 60%; margin: 0px auto; position: absolute; bottom: 25px; left: 20%;}
+#footer3-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#footer3-bar a p{color: black;}
